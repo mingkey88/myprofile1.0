@@ -1,0 +1,15 @@
+body {
+    text-align: left;
+    background-color: #508080;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+ul, ol {
+    display: inline-block;
+    text-align: left;
+}
+
+hr {
+    width: 85%;
+    border-color: rgb(128, 0, 0);
+}

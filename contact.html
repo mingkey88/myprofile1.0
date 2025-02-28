@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Form</title>
+    <style>
+        body {
+            text-align: left;
+            background-color: #508080;
+            font-family: Helvetica, Arial, sans-serif;
+        }
+        ul, ol {
+            display: inline-block;
+            text-align: left;
+        }
+        hr {
+            width: 85%;
+            border-color: rgb(128, 0, 0);
+        }
+    </style>
+</head>
+<body>
+    <h1 style="color: black;">My Contact Details</h1>
+    <p>Address: 123 Dragon Breath Road</p>
+    <p>Email: the_chosen_one@gmail.com</p>
+    <label for="contact-number">Contact Number:</label>
+    <p id="contact-number">+65 9123 4567</p>
+    <hr>
+    <form action="/submit_form" method="post">
+        <label for="name">Name:</label><br>
+        <input type="text" id="name" name="name" placeholder="Your Name" required><br>
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" required><br>
+        <label for="message">Message:</label><br>
+        <textarea id="message" name="message" rows="4" cols="50" required></textarea><br>
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
